@@ -93,7 +93,7 @@ assert len(section) == sect_sz
 
 image = dos + coff + opt + section + code
 
-out = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tiny.exe')
+out = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tiny64.exe')
 with open(out, 'wb') as f:
     f.write(image)
 
