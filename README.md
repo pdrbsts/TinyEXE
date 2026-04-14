@@ -16,7 +16,7 @@ There are two distinct builders for 32-bit and 64-bit Windows architectures.
 
 *   `build_tiny64.py`
     *   **Architecture:** 64-bit (`AMD64`)
-    *   **Output:** `tiny.exe` 
+    *   **Output:** `tiny64.exe` 
     *   **Size:** 331 bytes
     *   **Details:** Uses a PE32+ Optional Header. Because of the way 64-bit fields are structured, it only requires 11 data directories to generate a valid loadable image.
 
